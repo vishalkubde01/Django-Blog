@@ -12,7 +12,7 @@ class Category(models.Model):
     verbose_name_plural = 'categories'
 
   def __str__(self):
-      return self.category_name
+     return self.category_name
   
 STATUS_CHOICES = (
    ("Draft","Draft"),
